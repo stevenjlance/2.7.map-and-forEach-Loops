@@ -54,9 +54,7 @@ const people = [
 
 // =============== forEach Loops =====================
 //9. CODE-ALONG: Print out "______'s favorite superhero is ________" using a forEach Loop
-people.forEach(person => {
-	console.log(`${person.name}'s favorite superhero is ${person.superhero}`)
-})
+
 
 
 // 10. Print out to the console all the people over the age of 25 using a forEach function.
