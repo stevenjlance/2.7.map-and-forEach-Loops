@@ -1,7 +1,7 @@
-# `map` and `forEach` Functions
+# `map` and `forEach` Methods
 **GOAL**: Open the `script.js` file and complete the questions found in the comments. Make sure to use the introduction code shown below above if you are stuck!
 
-## `map` Function
+## `map` Method
 for loops are awesome, but you may have noticed that it often takes a little too much work to save the outputs of our iteration through an array? 
 
 Let's keep using our array of objects called people we used last class and see what it takes to SAVE (instead of console.log) the results of creating these quick nickname bios ("____'s nickname is ____").
@@ -34,7 +34,7 @@ In the example above:
 - The `map` function iterated through each item in the people array and updated bios with the statement that we wanted to return.
 - The `bios` array contains the new statement and the `people` array remains unchanged.
 
-## `forEach` Function
+## `forEach` Method
 The last form of array iteration we will talk about is perhaps the simplest and most readable, but it's also the least versatile. The `.forEach()` method works exactly the same as `.map()`, except instead of returning a copy of the original array, it returns nothing.
 
 The best use cases for a `.forEach()` loop are when you're sure you want to DO something for every single item in an array (there's no stopping early, so it's not often the most efficient), and you also really don't care about saving the results.

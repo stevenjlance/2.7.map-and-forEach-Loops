@@ -26,7 +26,7 @@ let bigNumbers = [100, 200, 300, 1000, 525600]
 let arr = [3, 4, 5, 6];
 
 
-// 4. CODE-ALONG: Below are the survey arrays that we used last class period stored in a people array.
+// 4. CODE-ALONG: Below are the survey arrays that we used last class period stored in a people array. Store "_____'s nickname is _____." in a new bio array.
 const people = [
 	{ name: 'Yadira', age: 22, nickname: 'Deary', 'Favorite Animal': 'Cat', 'Birth Place': 'Queens', superhero: "Black Panther" }, 
 	{name: 'Kadiatou', age: 28,nickname: 'Kadi-B','Favorite Animal': 'Ferret','Birth Place': 'Bronx', superhero: "Wonder Woman"}, 
@@ -45,7 +45,7 @@ const people = [
 
 
 
-// 7. SUse another map to save these longer bios, but this time wrap them in h3 tags.
+// 7. Use another map to save these longer bios, but this time wrap them in h3 tags.
 
 
 
